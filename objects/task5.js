@@ -7,6 +7,5 @@ const users = [
   for (const user of users) {
     const { name, email, age } = user;
   
+    console.table({ Name: name, Email: email, Age: age });
 }
-
-console.table(users);
