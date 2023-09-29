@@ -1,9 +1,9 @@
 const Book = require('./book');
 const EBook = require('./ebook');
 
-const book1 = new Book( "Watchmen", "A.Moore", 1987);
-const book2 = new Book("Witcher", "A.Sapkowski", 1995);
-const book3 = new Book("Carbide", "A.Lyubka", 2015);
+const book1 = new Book('Watchmen', 'A.Moore', 1987);
+const book2 = new Book('Witcher', 'A.Sapkowski', 1995);
+const book3 = new Book('Carbide', 'A.Lyubka', 2015);
 
 book1.title = 2;
 book2.author = 2;
@@ -13,7 +13,12 @@ book1.printInfo();
 book2.printInfo();
 book3.printInfo();
 
-const ebook = new EBook("Do Androids Dream of Electric Sheep?", "Philip K. Dick", 1968, "PDF");
+const ebook = new EBook(
+  'Do Androids Dream of Electric Sheep?',
+  'Philip K. Dick',
+  1968,
+  'PDF',
+);
 
 ebook.title = 2;
 ebook.author = 123;

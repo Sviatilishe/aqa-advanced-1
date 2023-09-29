@@ -1,8 +1,8 @@
 const countdown = (num) => {
-    console.log(num);
-    if (num > 0) {
-      countdown(num - 1);
-    }
-  };
-  
-  countdown(5);
+  console.log(num);
+  if (num > 0) {
+    countdown(num - 1);
+  }
+};
+
+countdown(5);
