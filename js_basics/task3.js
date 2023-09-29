@@ -1,7 +1,7 @@
-let person1 = "Gin";
-let person2 = "Kage";
+const person1 = 'Gin';
+const person2 = 'Kage';
 
-let greetingConcatenation = "Good morning, " + person1 + " & " + person2 + "!";
+const greetingConcatenation = `Good morning, ${person1} & ${person2}!`;
 
 console.log(greetingConcatenation);
 
